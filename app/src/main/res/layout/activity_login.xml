@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Login.LoginActivity"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/fishingboat"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:orientation="vertical"
+        android:padding="30dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/phanta"
+        android:text="Refrigerated Sea Water Control and Monitoring Apps Profile"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="Log in in to your RSW Control and Monitoring account"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="15dp"
+        android:text="Setting"
+        android:fontFamily="@font/auralyess"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="15dp"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/ashblue"
+        android:orientation="vertical"
+        android:padding="105dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:orientation="vertical"
+        android:padding="30dp">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/auralyess"
+        android:hint="Enter Username"
+        android:paddingLeft="35dp"
+        android:textColor="#004384" />
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="220dp"
+        android:fontFamily="@font/auralyess"
+        android:paddingLeft="10dp"
+        android:text="Username"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:orientation="vertical"
+        android:padding="30dp">
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_above="@drawable/fishingboat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape2"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/auralyess"
+        android:hint="Enter Password"
+        android:paddingLeft="35dp"
+        android:textColor="#004384" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="15dp"
+        android:layout_above="@drawable/fishingboat"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="265dp"
+        android:layout_marginBottom="220dp"
+        android:fontFamily="@font/auralyess"
+        android:paddingLeft="10dp"
+        android:text="Password"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginBottom="220dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:text="Login"
+        android:textColor="@color/white"/>
+</RelativeLayout>
